@@ -44,5 +44,4 @@ Our framework utilizes a fully frozen **DINOv2-L** encoder where every block is 
 
 ## 📧 Contact
 If you have any questions, please feel free to contact me via email at: **lixujie101@aliyun.com**
-README.md
-目前显示的是“README.md”。
+

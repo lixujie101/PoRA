@@ -6,9 +6,7 @@
 ---
 
 ## 📖 Introduction
-Camouflaged object detection (COD) aims to segment targets that exhibit high visual similarity to their surroundings. Given the limited availability of annotated data, recent parameter-efficient transfer learning (PETL) methods adapt large-scale frozen vision foundation models using small, trainable adapters. However, these adapters typically apply a uniform transformation to all image tokens, which ignores the inherent spatial heterogeneity of camouflaged scenes.
-
-To address this limitation, we propose **PoRA**, a **Po**pulation-**R**outed low-rank **A**dapter that employs a per-token router to dynamically mix *K* zero-initialized low-rank experts. Designed as a strictly pointwise mechanism without explicit spatial priors, PoRA autonomously learns to specialize across diverse token populations. 
+we propose **PoRA**, a **Po**pulation-**R**outed low-rank **A**dapter that employs a per-token router to dynamically mix *K* zero-initialized low-rank experts. Designed as a strictly pointwise mechanism without explicit spatial priors, PoRA autonomously learns to specialize across diverse token populations. 
 
 Integrating PoRA with a frozen **DINOv2-L** encoder requires training only **6.83 M parameters (2.2% of the total)**. Experiments on four standard COD benchmarks show that PoRA achieves state-of-the-art results, outperforming existing methods on all sixteen metric-dataset combinations!
 

@@ -35,10 +35,6 @@ PoRA achieves state-of-the-art results across the board. Experiments on four sta
 *   **Baidu Pan:** [https://pan.baidu.com/s/15vctUfYDdjuTz80SF7uAnQ](https://pan.baidu.com/s/15vctUfYDdjuTz80SF7uAnQ)
 *   **Extraction Code:** `t53k`
 
-## 🛠️ Architecture Highlights
-Our framework utilizes a fully frozen **DINOv2-L** encoder where every block is preceded by a PoRA prompt stream. Features are extracted at intermediate blocks and processed by:
-1.  **CSCA (Cross-Scale Contrast Aggregation):** Fuses multi-scale pyramid levels using their cross-scale statistics.
-2.  **GBTC (Gated Boundary-Aware Texture Contrast):** Extracts boundary evidence from local texture contrast, gated by a consistency ratio to distinguish true boundaries from artificial camouflage textures.
 
 ## 📧 Contact
 If you have any questions, please feel free to contact me via email at: **lixujie101@aliyun.com**

@@ -27,7 +27,7 @@ We utilize four standard Camouflaged Object Segmentation benchmarks for our expe
 
 ## 📊 Results and Checkpoints
 
-PoRA achieves state-of-the-art results across the board. For example, it reduces the Mean Absolute Error (MAE) on the challenging CAMO dataset from 0.036 to 0.027 and improves the structure measure ($S_{\alpha}$) from 0.889 to 0.918.
+PoRA achieves state-of-the-art results across the board. Experiments on four standard COD benchmarks show that PoRA achieves state-of-the-art results, outperforming existing methods on all sixteen metric–dataset combinations.
 
 📥 **Pre-trained Checkpoints:**
 *   **Baidu Pan:** [https://pan.baidu.com/s/1OaNTnDbXfn0hVApugE01UA?pwd=8373](https://pan.baidu.com/s/1OaNTnDbXfn0hVApugE01UA?pwd=8373)

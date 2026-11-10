@@ -31,7 +31,7 @@ PoRA achieves state-of-the-art results across the board. Experiments on four sta
 *   **Baidu Pan:** [https://pan.baidu.com/s/1OaNTnDbXfn0hVApugE01UA?pwd=8373](https://pan.baidu.com/s/1OaNTnDbXfn0hVApugE01UA?pwd=8373)
 *   **Extraction Code:** `8373`
 
-📥 **Pre-computed Segmentation Results:**
+📥 **Camouflaged Object Detection Results:**
 *   **Baidu Pan:** [https://pan.baidu.com/s/15vctUfYDdjuTz80SF7uAnQ](https://pan.baidu.com/s/15vctUfYDdjuTz80SF7uAnQ)
 *   **Extraction Code:** `t53k`
 
